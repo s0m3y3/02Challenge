@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Yee's Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Yee Yang</h1>
+      <p>Welcome!</p>
+
+      <nav>
+        <a href="#Aboutme">About me</a>
+        <a href="#Projects">Projects</a>
+        <a href="#Contactme">Contact me</a>
+      </nav>
+      
+    </header>
+
+    <img id="background" src="https://images.pexels.com/photos/547114/pexels-photo-547114.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="background-image" height="500"></img>
+
+    <main>
+      <section>
+        <div id="Aboutme">      About me       </div>
+        <img src="./assets/protrait.png" height="300px"></img>
+        <p>I am a gamer. I like burritos. I am a beginner coder. Soon to have actual projects in the future! </p>
+
+        <p id="Projects">Projects</p>
+        <div class="projects"> 
+
+            <section class="card">
+              <header>Calculator</header>
+              <img src="./assets/calculator.jpeg" alt="calculator-photo"  />
+            </section>
+            <section class="card">
+              <header>Game</header>
+              <img src="./assets/gamedice.jpeg" alt="tablet held in hands" />
+            </section>
+            <section class="card">
+              <header>(Proj-holder)</header>
+              <img
+                src="./assets/blank-placeholder.jpeg"
+                alt="rolls of toilet paper in a basket"
+              />
+            </section>
+          </div>
+      </section>
+    </main>
+  </body>
+  
+  <footer> 
+    <form>
+      <h3>Contact me:</h3>
+      <p>
+        <label for="username">Name:</label>
+        <input class="text-input" id="username" type="text" placeholder="First Last" />
+      </p>
+      <p>
+        <label for="email">E-mail:</label>
+        <input class="text-input" id="email" type="text" placeholder="me@example.com" />
+      </p>
+      <p>
+        <label for="message">Message:</label>
+        <textarea class="text-input" id="message" placeholder="Add your message!"></textarea>
+      </p>
+      <p>
+        <button>Submit</button> 
+      </p>
+    </form>
+  </footer>
+
+  
+</html>
