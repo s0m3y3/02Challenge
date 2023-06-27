@@ -23,5 +23,5 @@ N/A
 Please refer to the LICENSE in the repo
 
 ##Links: 
-github resipoitory link: https://github.com/s0m3y3/01Challenge/tree/main
+github resipoitory link: https://github.com/s0m3y3/02Challenge/tree/main
 website link: https://s0m3y3.github.io/02Challenge/
