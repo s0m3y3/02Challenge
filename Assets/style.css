@@ -1,143 +1,220 @@
 body {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.3;
-    background-color: rgb(243, 252, 252);
-  }
-  
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1%;
-    background-color: #1e033d;
-    color: #e2d6d6;
-    border: 5px;
-  }
-  
-  h1 {
-    font-size: 100%;
-  }
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+  background-color: rgb(243, 252, 252);
+}
 
-  
-  nav{
-     font-size: 120%;   
-  }
-  nav a {
-    color: #b9C6ae;
-    font-weight: bold;
-    padding: 10px;
-  }
-  nav a:hover {
-    color:#e2d6d6
-  }
-  
-  main {
-    max-width: 1200px;
-    margin: 2% auto;
-  }
-  main section p div:hover {
-    
-      padding: 40px;
-      color: #fff;
-    
-  }
-  /* main.aside{
-    display: flex;
-    flex: 1 1 0;
-    max-width: 1200px;
-    margin: 2% auto;
-    background-color: blue;
-  } */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: #1e033d;
+  color: #e2d6d6;
+  border: 5px;
+}
 
-  .background{
-    position:absolute;}
-  
-  .projects{
-    font-size:50px;
-    flex: 4;
-    background-color: #fff;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
-  }
-  
-  
-  .card {
-    border-style:groove;
-    border-width: 1px;
-    padding: 10px;
-    margin: 10px;
-    flex: 0 0 300px;
-    border-radius: 25px;
-    box-shadow: 2px 2px rgb(247, 162, 162);
-  
-  }
-  
-  .card header {
-    padding: 20px;
-    border-radius: 25px 25px 0px 0px;
-  }
-  
-  .card p {
-    text-align: center;
-  }
+h1 {
+  font-size: 40px;
+  margin-left: 40px;
+  font-weight: bold;
+}
 
-  div section img{
-    max-width: 400px;
-    max-height: 500px;
-    border-radius: 0 0 25px 25px;
-  }
+h2 {
+  align-items: center;
+  background-color: #1e033d;
+  color: #e2d6d6;
+}
+/* h3 = project title name */
+h3{
+  font-size: 30px;
+  margin-left: 10px;
+  text-align: center;
+}
+/* h4 = project title */
+h4{
+  font-size: 40px;
+  margin-left: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+nav{
+    font-size: 120%;   
+    margin-right: 20px
+}
+nav a {
+  color: #b9C6ae;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 150%
+
+}
+nav a:hover {
+  color:#e2d6d6
+}
+
+
+main {
+  max-width: 1200px;
+  margin: 2% auto;
+}
+main section p div:hover {
   
-  footer {
-    display: flex;
-    justify-content: center;
-    padding: 2%;
-    background-color: #1e033d;
+    padding: 40px;
     color: #fff;
-    size-adjust: 10%;
-  }
+  
+}
+
+.background{
+  position:absolute;}
+
+.aboutme-container {
+  height: auto; /* Change height to auto */
+  border-radius: 10px;
+  border: 2px solid rgb(104, 33, 185);
+  align-content: center;
+  padding: 20px; /* Add padding for better spacing */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#aboutme {
+  text-align: center;
+  font-size: 40px;
+  max-width: 100%;
+  margin-bottom: 20px; /* Add margin to separate from the introduction text */
+}
+
+#introduction {
+  text-align: center;
+  font-size: 25px;
+  margin: 10px;
+}
+
+#profileimg{
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.project-card {
+width: 300px;
+height: 500px;
+box-shadow: 5px 5px 20px rgb(197, 195, 195);
+margin: 10px;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
+}
 
 
-  form {
-    max-width: 400px;
-  }
-  form h3 {
-    font-size: 150%;
-  }
-  form p {
-    margin: 3% 0;
-  }
-  label {
-    display: block;
-  }
-  button {
-    padding: 1% 2%;
-    color: #fff;
-    background-color: #13293d;
-    border: none;
-    outline: none;
-    cursor: pointer;
-  }
+#email{
+  margin-bottom: 20px;
+}
 
-  @media screen and (max-width: 992px) {
-    .card {width: 50%}
-  }
-  
-  /* Large smartphones - navbar changes color */
-  @media screen and (max-width: 768px) {
-    .card  {width: 70%}
-  }
-  
-  /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
-    .card  {width: 100%}
-  }
-  
-  /* 
-  text-input
-  username
-  message
-  <button></button>
-  */
+#profileimg{
+  float: left;
+  max-width: 100%;
+}
+
+.contactme{
+  text-align: center;
+}
+
+.card {
+  border-style:groove;
+  border-width: 1px;
+  padding: 10px;
+  margin: 10px;
+  flex: 0 0 300px;
+  border-radius: 25px;
+  box-shadow: 2px 2px rgb(247, 162, 162);
+
+}
+
+.card header {
+  padding: 20px;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.card p {
+  text-align: center;
+}
+
+div section img{
+  max-width: 400px;
+  max-height: 500px;
+  border-radius: 0 0 25px 25px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  background-color: #1e033d;
+  color: #fff;
+  size-adjust: 10%;
+}
+
+form {
+  max-width: 400px;
+}
+form h3 {
+  font-size: 150%;
+}
+form p {
+  margin: 3% 0;
+}
+label {
+  display: block;
+}
+button {
+  padding: 1% 2%;
+  color: #fff;
+  background-color: #13293d;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* .project:hover {
+  transform: scale(1.1, 1.1);
+} */
+
+@media screen and (max-width: 992px) {
+  .card {width: 50%}
+  /* .aboutme-container {width: 100%;} */
+}
+
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+  .card  {width: 70%}
+  /* .aboutme-container {width: 100%;} */
+}
+
+/* Small smartphones - image placeholders change color */
+@media screen and (max-width: 576px) {
+  .card  {width: 100%}
+  /* .aboutme-container {width: 100%;} */
+}
+
+/* 
+text-input
+username
+message
+<button></button>
+*/

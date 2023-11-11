@@ -10,7 +10,6 @@
   <body>
     <header>
       <h1>Yee Yang</h1>
-      <p>Welcome!</p>
 
       <nav>
         <a href="#Aboutme">About me</a>
@@ -23,60 +22,68 @@
     <img id="background" src="https://images.pexels.com/photos/547114/pexels-photo-547114.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="background-image" height="500"></img>
 
     <main>
-      <section>
-        <div id="Aboutme">      About me       </div>
-        <img src="./assets/imageplaceholder.jpg" height="300px"></img>
-        <p>I am a gamer. I like burritos. I am a beginner coder. Soon to have actual projects in the future! </p>
 
-        <p id="Projects">Projects</p>
-        <div class="projects"> 
+<div>
+      <div class="aboutme-container">
+        <img src="./assets/portfolio-photo.jpg" alt="profile-photo" id="profileimg" height="300px"></img>
+        <p id="introduction">  
+          <br>About me: </br> 
+          My name is Yee Yang, and I'm passionate about web development. Embarking on this exciting NEW journey, I am dedicated to acquiring new skills and expanding my knowledge in the ever-evolving world of technology. On this page, you'll find a showcase of my projects.
+          <br></br>
+          Outside of programming, I find joy in outdoor activities such as climbing and hiking, immersing myself in nature's wonders. Additionally, I love exploring breweries, savoring the diverse and rich flavors that each one has to offer. Join me on my adventure.
+        </p>
+      </div>
 
-          <section class="card">
-            <header>Quotaku</header>
-            <img
-              src="./assets/blank-placeholder.jpeg"
-              alt="missing photo"
-            />
-            <p>https://s0m3y3.github.io/Quotaku/</p>
-          </section>
-            <section class="card">
-              <header>calculator (placeholder)</header>
-              <img src="./assets/calculator.jpeg" alt="calculator-photo"  />
-            </section>
-            <section class="card">
-              <header>Game (placeholder) </header>
+      <div class="">
+        <h4>Projects</h4>
+          <div class="projects"> 
+
+            <div class="card">
+              <h3>Quotaku</h3>
+              <a href="https://s0m3y3.github.io/Quotaku/"" target="blank"> 
+                <img
+                  src="./assets/blank-placeholder.jpeg"
+                  alt="Quotaku photo">
+                </img>
+              </a>
+              <p>Ever wonder what your favorite anime character's quotes are? This app can find popular quotes for you! <a href="">Github</a></p>
+              
+            </div>
+            
+            <div class="card">
+              <h3>Calculator (placeholder)</h3>
+              <a href="https://s0m3y3.github.io/Quotaku/"" target="blank"> 
+                <img
+                  src="./assets/calculator.jpeg" 
+                  alt="calculator-photo"> 
+                </img>
+              </a>
+              <p>Ever wonder what your favorite anime character's quotes are? This app can find popular quotes for you! <a href="">NoLink</a></p>
+            </div>
+
+            <div class="card">
+              <h3>Game (placeholder) </h3>
               <img src="./assets/gamedice.jpeg" alt="tablet held in hands" />
-            </section>
-            <section class="card">
-              <header>(Placeholder)</header>
+            </div>
+
+            <div class="card">
+              <h3>Project4 (Placeholder)</h3>
               <img
                 src="./assets/blank-placeholder.jpeg"
                 alt="rolls of toilet paper in a basket"
-              />
-            </section>
+              />  
+            </div>
           </div>
+        </div>
       </section>
     </main>
   </body>
   
   <footer> 
-    <form>
+    <form class="contactme">
       <h3>Contact me:</h3>
-      <p>
-        <label for="username">Name:</label>
-        <input class="text-input" id="username" type="text" placeholder="First Last" />
-      </p>
-      <p>
-        <label for="email">E-mail:</label>
-        <input class="text-input" id="email" type="text" placeholder="me@example.com" />
-      </p>
-      <p>
-        <label for="message">Message:</label>
-        <textarea class="text-input" id="message" placeholder="Add your message!"></textarea>
-      </p>
-      <p>
-        <button>Submit</button> 
-      </p>
+      <p id="email"> s0m3y3@gmail.com </p>
+      <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"> Linkedin</a>
     </form>
   </footer>
 
